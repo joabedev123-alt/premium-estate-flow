@@ -1,4 +1,5 @@
 import { Home, Facebook, Instagram, Youtube, Linkedin, Mail, Phone } from "lucide-react";
+import logoImage from "@/assets/logo-douglas.png";
 
 const Footer = () => {
   return (
@@ -8,13 +9,14 @@ const Footer = () => {
           {/* Column 1: Brand */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <Home className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="text-2xl font-heading font-bold">ZapHouse</span>
+              <img
+                src={logoImage}
+                alt="Douglas Azevedo Corretor Imobiliário"
+                className="h-12 w-auto object-contain"
+              />
             </div>
             <p className="text-background/80 mb-6">
-              Encontre o imóvel perfeito para você. Milhares de opções em todo o Brasil.
+              Douglas Azevedo - Corretor Imobiliário especializado. Encontre o imóvel perfeito para você.
             </p>
             <div className="flex gap-4">
               <a
@@ -114,12 +116,12 @@ const Footer = () => {
             <ul className="space-y-3 mb-6">
               <li>
                 <a href="#sobre" className="text-background/80 hover:text-primary transition-colors">
-                  Sobre o ZapHouse
+                  Sobre Douglas Azevedo
                 </a>
               </li>
               <li>
-                <a href="#carreiras" className="text-background/80 hover:text-primary transition-colors">
-                  Trabalhe Conosco
+                <a href="#creci" className="text-background/80 hover:text-primary transition-colors">
+                  CRECI-RJ 01.086.864
                 </a>
               </li>
               <li>
@@ -129,7 +131,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#parceiros" className="text-background/80 hover:text-primary transition-colors">
-                  Seja um Parceiro
+                  Parcerias
                 </a>
               </li>
             </ul>
@@ -150,8 +152,8 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-background/80 text-sm text-center md:text-left">
-              <p className="mb-1">© 2025 ZapHouse. Todos os direitos reservados.</p>
-              <p className="text-xs">CNPJ: 00.000.000/0001-00 | Uma empresa OLX Brasil</p>
+              <p className="mb-1">© 2025 Douglas Azevedo - Corretor Imobiliário. Todos os direitos reservados.</p>
+              <p className="text-xs">CRECI-RJ 01.086.864</p>
             </div>
             
             <div className="flex gap-4">

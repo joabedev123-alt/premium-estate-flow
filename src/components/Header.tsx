@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Home, Search, User, Plus, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/logo-douglas.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,12 +28,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <Home className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="text-2xl font-heading font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              ZapHouse
-            </span>
+            <img
+              src={logoImage}
+              alt="Douglas Azevedo Corretor Imobiliário"
+              className="h-12 w-auto object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
