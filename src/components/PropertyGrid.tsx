@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import PropertyCard from "./PropertyCard";
+import HouseCardCompact from "./HouseCardCompact";
+import { housesData } from "@/data/housesData";
 import property1 from "@/assets/property-1.jpg";
 import property2 from "@/assets/property-2.jpg";
 import property3 from "@/assets/property-3.jpg";
@@ -167,10 +169,12 @@ interface PropertyGridProps {
   title: string;
   subtitle?: string;
   showPriceReduction?: boolean;
+  showHousesForSale?: boolean;
 }
 
 // Tipo para as propriedades
 type Property = {
+    id?: string;
     image: string;
     images?: string[];
     price: string;
@@ -183,6 +187,7 @@ type Property = {
     type: string;
     badge?: string;
     badgeVariant?: "default" | "destructive" | "outline" | "secondary";
+    description?: string;
     detailedInfo?: {
       description: string;
       builtArea?: number;
@@ -199,7 +204,7 @@ type Property = {
     };
 };
 
-const PropertyGrid = ({ title, subtitle, showPriceReduction = false }: PropertyGridProps) => {
+const PropertyGrid = ({ title, subtitle, showPriceReduction = false, showHousesForSale = false }: PropertyGridProps) => {
   // Lista de propriedades para "Imóveis perto de você"
   const nearbyProperties: Property[] = [
     {
@@ -563,34 +568,57 @@ const PropertyGrid = ({ title, subtitle, showPriceReduction = false }: PropertyG
     },
   ];
 
-  // Escolhe qual lista usar baseado na prop showPriceReduction
-  const properties = showPriceReduction ? reducedPriceProperties : nearbyProperties;
+  // Lista de casas à venda - Nova seção
+  // Usa os dados do arquivo housesData.ts
+  const housesForSale: Property[] = Object.values(housesData).map((house) => ({
+    ...house,
+    type: "Casa",
+  }));
+
+  // Escolhe qual lista usar baseado nas props
+  const properties = showHousesForSale 
+    ? housesForSale 
+    : showPriceReduction 
+      ? reducedPriceProperties 
+      : nearbyProperties;
 
   return (
-    <section className="py-20">
-      <div className="container mx-auto px-4">
+    <section className="py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-3 sm:px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-8 sm:mb-10 lg:mb-12 px-2 sm:px-0"
+          className="text-center mb-6 sm:mb-8 lg:mb-10 px-2 sm:px-0"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-heading font-bold mb-3 sm:mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-heading font-bold mb-2 sm:mb-3 lg:mb-4">
             {title}
           </h2>
           {subtitle && (
-            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
+            <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
               {subtitle}
             </p>
           )}
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 items-stretch">
-          {properties.map((property, index) => (
-            <PropertyCard key={index} {...property} />
-          ))}
-        </div>
+        {properties.length > 0 ? (
+          <div className={`grid grid-cols-1 ${showHousesForSale ? 'sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5' : 'sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'} gap-3 sm:gap-4 lg:gap-5 xl:gap-6 items-stretch`}>
+            {properties.map((property, index) => 
+              showHousesForSale && property.id ? (
+                <HouseCardCompact key={property.id || index} {...property} />
+              ) : (
+                <PropertyCard key={index} {...property} />
+              )
+            )}
+          </div>
+        ) : (
+          <div className="text-center py-8 sm:py-10 lg:py-12">
+            <p className="text-muted-foreground text-sm sm:text-base lg:text-lg">
+              Em breve adicionaremos novas casas à venda!
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );

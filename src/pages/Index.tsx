@@ -18,8 +18,9 @@ const Index = () => {
         <LifestyleSection />
         <LocationSearch />
         <PropertyGrid 
-          title="Imóveis perto de você"
-          subtitle="Descubra as melhores opções na sua região"
+          title="Casas à Venda"
+          subtitle="Encontre a casa dos seus sonhos"
+          showHousesForSale={true}
         />
         <LaunchCarousel />
         <NeighborhoodList />
