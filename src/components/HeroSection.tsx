@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import heroVideo from "@/assets/iamgens01/WhatsApp Video 2025-11-07 at 22.10.14.mp4";
 import logoImage from "@/assets/iamgens01/imagens02/logo.png";
-import heroBackgroundImage from "@/assets/villa-de-luxo-com-design-arquitetonico-moderno.jpg";
+import heroBackgroundImage from "@/assets/WhatsApp Image 2025-11-14 at 08.13.52 (1).jpeg";
 
 const HeroSection = () => {
 

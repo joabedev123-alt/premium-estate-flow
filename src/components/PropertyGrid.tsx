@@ -48,20 +48,34 @@ import img02_7 from "@/assets/iamgens01/imagens02/WhatsApp Image 2025-11-07 at 1
 import img02_8 from "@/assets/iamgens01/imagens02/WhatsApp Image 2025-11-07 at 12.37.36 (3).jpeg";
 import img02_9 from "@/assets/iamgens01/imagens02/WhatsApp Image 2025-11-07 at 12.37.36.jpeg";
 
-// Importar todas as imagens da pasta imagem02 (para Casa Contemporânea)
-import casa_img1 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.22.jpeg";
-import casa_img2 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.23 (1).jpeg";
-import casa_img3 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.23 (2).jpeg";
-import casa_img4 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.23 (3).jpeg";
-import casa_img5 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.23.jpeg";
-import casa_img6 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.24 (1).jpeg";
-import casa_img7 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.24 (2).jpeg";
-import casa_img8 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.24 (3).jpeg";
-import casa_img9 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.24 (4).jpeg";
-import casa_img10 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.24 (5).jpeg";
-import casa_img11 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.24.jpeg";
-import casa_img12 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.25 (1).jpeg";
-import casa_img13 from "@/assets/iamgens01/imagem02/WhatsApp Image 2025-11-07 at 22.20.25.jpeg";
+// Importar todas as imagens da pasta casas/casa 1 (para Casa Contemporânea)
+import casa_img1 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.18 (1).jpeg";
+import casa_img2 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.18.jpeg";
+import casa_img3 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.19 (1).jpeg";
+import casa_img4 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.19 (2).jpeg";
+import casa_img5 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.19.jpeg";
+import casa_img6 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.20.jpeg";
+import casa_img7 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.21 (1).jpeg";
+import casa_img8 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.21 (2).jpeg";
+import casa_img9 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.21 (3).jpeg";
+import casa_img10 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.21.jpeg";
+import casa_img11 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.22 (1).jpeg";
+import casa_img12 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.22.jpeg";
+import casa_img13 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.23 (1).jpeg";
+import casa_img14 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.23 (2).jpeg";
+import casa_img15 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.23 (3).jpeg";
+import casa_img16 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.23.jpeg";
+import casa_img17 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.24 (1).jpeg";
+import casa_img18 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.24.jpeg";
+import casa_img19 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.25 (1).jpeg";
+import casa_img20 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.25 (2).jpeg";
+import casa_img21 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.25 (3).jpeg";
+import casa_img22 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.25.jpeg";
+import casa_img23 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.26.jpeg";
+import casa_img24 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.27 (1).jpeg";
+import casa_img25 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.27.jpeg";
+import casa_img26 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.28 (1).jpeg";
+import casa_img27 from "@/assets/iamgens01/casas/casa 1/WhatsApp Image 2025-11-07 at 12.35.28.jpeg";
 
 // Importar todas as imagens da pasta imagen03 (para Cobertura Luxuosa)
 import cobertura_img1 from "@/assets/iamgens01/imagen03/WhatsApp Image 2025-11-07 at 23.31.52 (1).jpeg";
@@ -106,35 +120,15 @@ import apartamento_img22 from "@/assets/iamgens01/imagen03/imagen04/WhatsApp Ima
 import apartamento_img23 from "@/assets/iamgens01/imagen03/imagen04/WhatsApp Image 2025-11-07 at 23.42.01.jpeg";
 import apartamento_img24 from "@/assets/iamgens01/imagen03/imagen04/WhatsApp Image 2025-11-07 at 23.42.02.jpeg";
 
-// Importar todas as imagens da pasta imagen08 (para Apartamento Moderno com Vista Panorâmica - Preço Reduzido)
-import apt_moderno_img1 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.23 (1).jpeg";
-import apt_moderno_img2 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.23 (2).jpeg";
-import apt_moderno_img3 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.23.jpeg";
-import apt_moderno_img4 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.24 (1).jpeg";
-import apt_moderno_img5 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.24 (2).jpeg";
-import apt_moderno_img6 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.24 (3).jpeg";
-import apt_moderno_img7 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.24 (4).jpeg";
-import apt_moderno_img8 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.24.jpeg";
-import apt_moderno_img9 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.25 (1).jpeg";
-import apt_moderno_img10 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.25 (2).jpeg";
-import apt_moderno_img11 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.25.jpeg";
-import apt_moderno_img12 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.26.jpeg";
-import apt_moderno_img13 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.27 (1).jpeg";
-import apt_moderno_img14 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.27.jpeg";
-import apt_moderno_img15 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.28 (1).jpeg";
-import apt_moderno_img16 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.28 (2).jpeg";
-import apt_moderno_img17 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.28 (3).jpeg";
-import apt_moderno_img18 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.28 (4).jpeg";
-import apt_moderno_img19 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.28 (5).jpeg";
-import apt_moderno_img20 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.28.jpeg";
-import apt_moderno_img21 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.29 (1).jpeg";
-import apt_moderno_img22 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.29 (2).jpeg";
-import apt_moderno_img23 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.29 (3).jpeg";
-import apt_moderno_img24 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.29 (4).jpeg";
-import apt_moderno_img25 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.29.jpeg";
-import apt_moderno_img26 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.30 (1).jpeg";
-import apt_moderno_img27 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.30 (2).jpeg";
-import apt_moderno_img28 from "@/assets/iamgens01/imagen03/imagen04/imagen05/images06/imagen07/imagen08/WhatsApp Image 2025-11-08 at 00.02.30.jpeg";
+// Importar todas as imagens da pasta casas/casa 2 (para Excelente Oportunidade de Investimento no Parque Fleixal)
+import apt_moderno_img1 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.34.jpeg";
+import apt_moderno_img2 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.35 (1).jpeg";
+import apt_moderno_img3 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.35 (2).jpeg";
+import apt_moderno_img4 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.35.jpeg";
+import apt_moderno_img5 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.36 (1).jpeg";
+import apt_moderno_img6 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.36 (2).jpeg";
+import apt_moderno_img7 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.36 (3).jpeg";
+import apt_moderno_img8 from "@/assets/iamgens01/casas/casa 1/casas/casa 2/WhatsApp Image 2025-11-07 at 12.37.36.jpeg";
 
 const apartmentImages = [
   img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
@@ -145,7 +139,9 @@ const apartmentImages = [
 
 const houseImages = [
   casa_img1, casa_img2, casa_img3, casa_img4, casa_img5, casa_img6, 
-  casa_img7, casa_img8, casa_img9, casa_img10, casa_img11, casa_img12, casa_img13
+  casa_img7, casa_img8, casa_img9, casa_img10, casa_img11, casa_img12, casa_img13,
+  casa_img14, casa_img15, casa_img16, casa_img17, casa_img18, casa_img19, casa_img20,
+  casa_img21, casa_img22, casa_img23, casa_img24, casa_img25, casa_img26, casa_img27
 ];
 
 const coberturaImages = [
@@ -164,11 +160,7 @@ const apartamentoImages = [
 
 const aptModernoImages = [
   apt_moderno_img1, apt_moderno_img2, apt_moderno_img3, apt_moderno_img4, apt_moderno_img5,
-  apt_moderno_img6, apt_moderno_img7, apt_moderno_img8, apt_moderno_img9, apt_moderno_img10,
-  apt_moderno_img11, apt_moderno_img12, apt_moderno_img13, apt_moderno_img14, apt_moderno_img15,
-  apt_moderno_img16, apt_moderno_img17, apt_moderno_img18, apt_moderno_img19, apt_moderno_img20,
-  apt_moderno_img21, apt_moderno_img22, apt_moderno_img23, apt_moderno_img24, apt_moderno_img25,
-  apt_moderno_img26, apt_moderno_img27, apt_moderno_img28
+  apt_moderno_img6, apt_moderno_img7, apt_moderno_img8
 ];
 
 interface PropertyGridProps {
@@ -215,7 +207,7 @@ const PropertyGrid = ({ title, subtitle, showPriceReduction = false }: PropertyG
       images: apartmentImages,
       price: "R$ 550.000,00",
       originalPrice: undefined,
-      title: "Apartamento Moderno com Vista Panorâmica",
+      title: "Excelente Oportunidade de Investimento no Parque Fleixal – Guapimirim/RJ",
       location: "Guapimirim/RJ",
       bedrooms: 2,
       bathrooms: 3,
@@ -270,7 +262,7 @@ const PropertyGrid = ({ title, subtitle, showPriceReduction = false }: PropertyG
     {
       image: casa_img1,
       images: houseImages,
-      price: "A partir de R$ 348.000,00",
+      price: "R$ 348.000,00",
       originalPrice: undefined,
       title: "Casa Contemporânea com Imóvel em condomínio residencial !",
       location: "Condomínio Ipê - Cotia - Guapimirim",
@@ -465,7 +457,7 @@ const PropertyGrid = ({ title, subtitle, showPriceReduction = false }: PropertyG
       images: aptModernoImages,
       price: "R$ 200.000,00",
       originalPrice: "R$ 920.000",
-      title: "Apartamento Moderno com Vista Panorâmica",
+      title: "Excelente Oportunidade de Investimento no Parque Fleixal – Guapimirim/RJ",
       location: "Guapimirim/RJ",
       bedrooms: 2,
       bathrooms: 2,
