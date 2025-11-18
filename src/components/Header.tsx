@@ -59,13 +59,13 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-3 sm:px-4">
-        <div className="flex items-center justify-between h-16 sm:h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20 lg:h-24 xl:h-28">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
             <img
               src={logoImage}
               alt="Douglas Azevedo Corretor Imobiliário"
-              className="h-8 sm:h-10 lg:h-12 w-auto object-contain"
+              className="h-12 sm:h-16 md:h-[72px] lg:h-20 xl:h-24 w-auto object-contain max-w-[140px] sm:max-w-[180px] lg:max-w-none"
             />
           </div>
 
@@ -103,7 +103,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="lg:hidden w-10 h-10 touch-manipulation"
+            className="lg:hidden w-9 h-9 sm:w-10 sm:h-10 touch-manipulation flex-shrink-0"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >

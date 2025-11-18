@@ -708,7 +708,7 @@ Tudo isso há menos de 25 minutos do município de Teresópolis e a 55 minutos d
     id: "casa-9",
     image: casa9_img1,
     images: casa9Images,
-    price: "R$ XXX.XXX,XX",
+    price: "Sob consulta",
     title: "Casa de alto padrão",
     location: "RIO DE JANEIRO",
     bedrooms: 2,
